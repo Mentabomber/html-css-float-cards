@@ -1,0 +1,117 @@
+/* recole generali */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.center-block {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* regole di testa  */
+
+h1{
+    color: rgb(229,49,112);
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 50px;
+}
+
+
+header{
+    margin-bottom: 30px;
+}
+
+.textheader {
+    font-size: 24px;
+}
+
+/* corpo principale */
+
+section {
+    margin-bottom: 30px;
+}
+section div,img{
+    float: left;
+}
+
+section img{
+    width: 100px;
+    height: 100%;
+}
+.whitebox{
+    background-color: #fff;
+}
+.blackbox{
+    color: #fff;
+    background-color: black;
+    width: calc((100%/3) - 40px);
+    height: 100px;
+    text-align: left;
+    margin: 20px 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.blackbox:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.blackbox.paddingcenter{
+
+}
+
+a{
+    color: rgb(0,169,244);
+}
+/* regole DEBUG */
+.row{
+    border: solid 4px #fff;
+    
+}
+.col{
+    height: 250px;
+    background-color: greenyellow;
+    border: solid 2px red;
+    padding: 0px 10px;
+}
+/* 
+body{
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+
+
+h3{
+    color: orange;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+    width: calc(100%/3);
+    text-align: center;
+
+}
+img{
+    width: 300px;
+}
+
+
+.imgfloatleft{
+    float: left;
+} */
+
+/* regole header */
+
